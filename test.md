@@ -1,0 +1,1 @@
+I think the best thing is you focus on one thing too much to forget the world outside.

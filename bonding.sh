@@ -1,4 +1,5 @@
 #!/bin/bash
+#for centos 6.5
 cd /etc/sysconfig/network-scripts/ && touch ifcfg-bond0
 FILE_PATH=/etc/sysconfig/network-scripts/ifcfg-bond0
 cat > $FILE_PATH <<EOF

@@ -18,8 +18,7 @@ chattr +i /etc/gshadow
 ##set it out use this:chattr -i file
 
 ##convient set
-echo vi='vim' >> /root/.bashrc
-echo grep = 'grep --color=auto' >> /root/.bashrc
+echo "alias vi='vim'" >> /root/.bashrc
 
 #set timezone
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 

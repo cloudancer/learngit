@@ -1,5 +1,5 @@
 #!/bin/bash
-##bond for centos6.5
+##bond for centos 6.5 or 7.5
 
 cd /etc/sysconfig/network-scripts/ && touch ifcfg-bond0
 NET_PATH=/etc/sysconfig/network-scripts

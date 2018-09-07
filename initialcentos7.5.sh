@@ -19,6 +19,7 @@ chattr +i /etc/gshadow
 
 ##convient set
 echo "alias vi='vim'" >> /root/.bashrc
+echo "export HISTTIMEFORMAT='%F %T '" >> /root/.bashrc
 
 #set timezone
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 
